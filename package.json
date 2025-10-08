@@ -1,0 +1,17 @@
+{
+  "name": "xe-web-developer-challenge",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "test": "cd frontend && npm run test",
+    "test:cov": "cd frontend && npm run test:cov",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
