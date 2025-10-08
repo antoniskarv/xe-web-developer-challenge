@@ -59,40 +59,6 @@ npm run dev
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository and install dependencies for both frontend and backend:
-
-```bash
-git clone git@github.com:antoniskarv/xe-web-developer-challenge.git
-cd xe-web-developer-challenge
-
-# Install root dev dependencies
-npm install
-
-# Install frontend + backend dependencies
-cd frontend && npm install
-cd ../backend && npm install
-cd ..
-```
-
----
-
-## ▶️ Running the Project
-
-Start **both backend and frontend** together from the root:
-
-```bash
-npm run dev
-```
-
-Example output:
-
-```
-[SERVER] ✅ Server running on http://localhost:8080
-[CLIENT]  VITE v5.2.0  ready in 400ms
-```
-
 ### Available Commands
 
 | Command            | Description                             |
