@@ -7,6 +7,18 @@ Implements a form for posting ads with validation and autocomplete functionality
 
 ## ⚡ Quick Start
 
+## Requirements
+
+- Node.js **>= 20** (tested on v20.x)
+- npm **>= 10**
+
+Check your versions:
+
+```bash
+node -v   # should be >= v20
+npm -v    # should be >= 10
+```
+
 ```bash
 # 1. Clone the repository
 git clone git@github.com:antoniskarv/xe-web-developer-challenge.git
@@ -14,6 +26,7 @@ cd xe-web-developer-challenge
 
 # 2. Install all dependencies (root, frontend, backend)
 npm install && cd frontend && npm install && cd ../backend && npm install && cd ..
+cp frontend/.env.example frontend/.env
 
 # 3. Run both frontend + backend
 npm run dev
